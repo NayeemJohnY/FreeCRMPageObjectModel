@@ -1,4 +1,0 @@
-# Created at 2019-01-09T09:30:25.817
-Boot Manifest-JAR contains absolute paths in classpath 'F:\Workspace_Selenium\FreeCRMPageObjectModel\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-

@@ -1,12 +1,325 @@
-2019-01-09 09:32:20,943  INFO [main] WebEventListener:23 - Before navigating to: 'https://www.freecrm.com'
-2019-01-09 09:33:11,916 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.TimeoutException: timeout
+2019-01-09 11:53:40,494  INFO [main] WebEventListener:23 - Before navigating to: 'https://www.freecrm.com'
+2019-01-09 11:54:17,015  INFO [main] WebEventListener:27 - Navigated to:'https://www.freecrm.com'
+2019-01-09 11:54:17,417  INFO [main] TestReportListener:40 - on test start
+2019-01-09 11:54:17,693  INFO [main] LoginPageTest:39 - Login  Page Title is#1 Free CRM software in the cloud for sales and service
+2019-01-09 11:54:17,727  INFO [main] LoginPageTest:41 - Login Page Title is verified
+2019-01-09 11:54:17,735  INFO [main] TestReportListener:48 - on test success
+2019-01-09 11:54:35,568  INFO [main] WebEventListener:23 - Before navigating to: 'https://www.freecrm.com'
+2019-01-09 11:54:50,245  INFO [main] WebEventListener:27 - Navigated to:'https://www.freecrm.com'
+2019-01-09 11:54:50,250  INFO [main] TestReportListener:40 - on test start
+2019-01-09 11:54:50,251  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //img[contains(@alt,'logo')]
+2019-01-09 11:54:52,163  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //img[contains(@alt,'logo')]
+2019-01-09 11:54:59,159  INFO [main] LoginPageTest:48 - CRM Logo is verified
+2019-01-09 11:54:59,160  INFO [main] TestReportListener:48 - on test success
+2019-01-09 11:55:14,563  INFO [main] WebEventListener:23 - Before navigating to: 'https://www.freecrm.com'
+2019-01-09 11:55:56,561  INFO [main] WebEventListener:27 - Navigated to:'https://www.freecrm.com'
+2019-01-09 11:55:56,564  INFO [main] TestReportListener:40 - on test start
+2019-01-09 11:55:56,569  INFO [main] LoginPageTest:53 - Login using credentails username=Nayeemjohnpassword=Vino@1702
+2019-01-09 11:55:58,190  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:56:00,164 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
   (Session info: chrome=71.0.3578.98)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: d5b80ffb2a87afcb1a4a6bd7340f0302
-2019-01-09 09:33:12,001  INFO [main] TestReportListener:102 - on test skipped
-2019-01-09 09:33:12,080 ERROR [main] TestReportListener:68 - on test failure
+Session ID: fcdc20409f101efd429cbf64f2a9b9b3
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:56:00,668  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:56:00,944 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: fcdc20409f101efd429cbf64f2a9b9b3
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:56:01,639  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:56:05,175  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:56:06,040 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: EventFiringWebDriver
+2019-01-09 11:56:06,041  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //span[text()='Cogmento']
+2019-01-09 11:56:06,117  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //span[text()='Cogmento']
+2019-01-09 11:56:07,268  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //*[@role='button']
+2019-01-09 11:56:07,310  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //*[@role='button']
+2019-01-09 11:56:07,312  INFO [main] WebEventListener:40 - Trying to click on: [[ChromeDriver: chrome on XP (fcdc20409f101efd429cbf64f2a9b9b3)] -> xpath: //*[@role='button']]
+2019-01-09 11:56:07,838  INFO [main] WebEventListener:44 - Clicked on: [[ChromeDriver: chrome on XP (fcdc20409f101efd429cbf64f2a9b9b3)] -> xpath: //*[@role='button']]
+2019-01-09 11:56:07,839  INFO [main] WebEventListener:73 - Trying to find Element By : By.name: username
+2019-01-09 11:56:07,883  INFO [main] WebEventListener:77 - Found Element By : By.name: username
+2019-01-09 11:56:08,599  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //*[@type='password']
+2019-01-09 11:56:08,630  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //*[@type='password']
+2019-01-09 11:56:08,769  INFO [main] WebEventListener:73 - Trying to find Element By : By.cssSelector: input[value='Login']
+2019-01-09 11:56:08,796  INFO [main] WebEventListener:77 - Found Element By : By.cssSelector: input[value='Login']
+2019-01-09 11:56:08,797  INFO [main] WebEventListener:40 - Trying to click on: [[ChromeDriver: chrome on XP (fcdc20409f101efd429cbf64f2a9b9b3)] -> css selector: input[value='Login']]
+2019-01-09 11:56:21,491  INFO [main] WebEventListener:44 - Clicked on: [[ChromeDriver: chrome on XP (fcdc20409f101efd429cbf64f2a9b9b3)] -> css selector: input[value='Login']]
+2019-01-09 11:56:21,624  INFO [main] TestReportListener:48 - on test success
+2019-01-09 11:56:33,102  INFO [main] WebEventListener:23 - Before navigating to: 'https://www.freecrm.com'
+2019-01-09 11:57:19,157  INFO [main] WebEventListener:27 - Navigated to:'https://www.freecrm.com'
+2019-01-09 11:57:19,162  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:57:19,738 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 52f2c9e411398048ba07df551e7c258f
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:57:20,239  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:57:22,094 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 52f2c9e411398048ba07df551e7c258f
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:57:22,596  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:57:22,629 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 52f2c9e411398048ba07df551e7c258f
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:57:23,130  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:57:24,387 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 52f2c9e411398048ba07df551e7c258f
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:57:24,889  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:57:29,183  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:57:30,370 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: EventFiringWebDriver
+2019-01-09 11:57:30,370  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //span[text()='Cogmento']
+2019-01-09 11:57:30,435  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //span[text()='Cogmento']
+2019-01-09 11:57:32,530  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //*[@role='button']
+2019-01-09 11:57:32,564  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //*[@role='button']
+2019-01-09 11:57:32,565  INFO [main] WebEventListener:40 - Trying to click on: [[ChromeDriver: chrome on XP (52f2c9e411398048ba07df551e7c258f)] -> xpath: //*[@role='button']]
+2019-01-09 11:57:33,888  INFO [main] WebEventListener:44 - Clicked on: [[ChromeDriver: chrome on XP (52f2c9e411398048ba07df551e7c258f)] -> xpath: //*[@role='button']]
+2019-01-09 11:57:33,890  INFO [main] WebEventListener:73 - Trying to find Element By : By.name: username
+2019-01-09 11:57:33,931  INFO [main] WebEventListener:77 - Found Element By : By.name: username
+2019-01-09 11:57:37,350  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //*[@type='password']
+2019-01-09 11:57:37,381  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //*[@type='password']
+2019-01-09 11:57:37,997  INFO [main] WebEventListener:73 - Trying to find Element By : By.cssSelector: input[value='Login']
+2019-01-09 11:57:38,030  INFO [main] WebEventListener:77 - Found Element By : By.cssSelector: input[value='Login']
+2019-01-09 11:57:38,031  INFO [main] WebEventListener:40 - Trying to click on: [[ChromeDriver: chrome on XP (52f2c9e411398048ba07df551e7c258f)] -> css selector: input[value='Login']]
+2019-01-09 11:57:52,599  INFO [main] WebEventListener:44 - Clicked on: [[ChromeDriver: chrome on XP (52f2c9e411398048ba07df551e7c258f)] -> css selector: input[value='Login']]
+2019-01-09 11:57:53,120  INFO [main] TestReportListener:40 - on test start
+2019-01-09 11:57:53,128  INFO [main] HomePageTest:36 - Homepage title is CRMPRO
+2019-01-09 11:57:53,129  INFO [main] HomePageTest:38 - Homepage title is verified
+2019-01-09 11:57:53,129  INFO [main] TestReportListener:48 - on test success
+2019-01-09 11:58:05,413  INFO [main] WebEventListener:23 - Before navigating to: 'https://www.freecrm.com'
+2019-01-09 11:58:43,237  INFO [main] WebEventListener:27 - Navigated to:'https://www.freecrm.com'
+2019-01-09 11:58:43,239  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:58:43,522 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 009f366c653211fcdf60d81a94515d3a
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:58:44,023  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:58:44,868 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 009f366c653211fcdf60d81a94515d3a
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:58:45,369  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:58:45,405 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 009f366c653211fcdf60d81a94515d3a
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:58:45,906  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:58:46,275 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 009f366c653211fcdf60d81a94515d3a
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:58:46,777  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:58:47,791  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:58:47,902 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: EventFiringWebDriver
+2019-01-09 11:58:47,903  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //span[text()='Cogmento']
+2019-01-09 11:58:47,933  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //span[text()='Cogmento']
+2019-01-09 11:58:48,546  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //*[@role='button']
+2019-01-09 11:58:48,580  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //*[@role='button']
+2019-01-09 11:58:48,581  INFO [main] WebEventListener:40 - Trying to click on: [[ChromeDriver: chrome on XP (009f366c653211fcdf60d81a94515d3a)] -> xpath: //*[@role='button']]
+2019-01-09 11:58:49,208  INFO [main] WebEventListener:44 - Clicked on: [[ChromeDriver: chrome on XP (009f366c653211fcdf60d81a94515d3a)] -> xpath: //*[@role='button']]
+2019-01-09 11:58:49,209  INFO [main] WebEventListener:73 - Trying to find Element By : By.name: username
+2019-01-09 11:58:49,264  INFO [main] WebEventListener:77 - Found Element By : By.name: username
+2019-01-09 11:58:49,942  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //*[@type='password']
+2019-01-09 11:58:49,993  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //*[@type='password']
+2019-01-09 11:58:50,113  INFO [main] WebEventListener:73 - Trying to find Element By : By.cssSelector: input[value='Login']
+2019-01-09 11:58:50,147  INFO [main] WebEventListener:77 - Found Element By : By.cssSelector: input[value='Login']
+2019-01-09 11:58:50,147  INFO [main] WebEventListener:40 - Trying to click on: [[ChromeDriver: chrome on XP (009f366c653211fcdf60d81a94515d3a)] -> css selector: input[value='Login']]
+2019-01-09 11:59:01,465  INFO [main] WebEventListener:44 - Clicked on: [[ChromeDriver: chrome on XP (009f366c653211fcdf60d81a94515d3a)] -> css selector: input[value='Login']]
+2019-01-09 11:59:01,695  INFO [main] TestReportListener:40 - on test start
+2019-01-09 11:59:01,696  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //td[contains(text(),'User: nayeem')]
+2019-01-09 11:59:01,725  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //td[contains(text(),'User: nayeem')]
+2019-01-09 11:59:01,751  INFO [main] HomePageTest:44 - Homepage username  is diaplayed
+2019-01-09 11:59:01,765  INFO [main] TestReportListener:48 - on test success
+2019-01-09 11:59:13,316  INFO [main] WebEventListener:23 - Before navigating to: 'https://www.freecrm.com'
+2019-01-09 11:59:45,891  INFO [main] WebEventListener:27 - Navigated to:'https://www.freecrm.com'
+2019-01-09 11:59:45,898  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:59:48,965 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 8c13a2b4a88eab890b245c0c899a662b
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:59:49,560  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:59:49,584 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 8c13a2b4a88eab890b245c0c899a662b
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:59:50,086  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:59:50,492 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@name, 'intercom-borderless-frame')]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\LOGESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 8c13a2b4a88eab890b245c0c899a662b
+*** Element info: {Using=xpath, value=//iframe[contains(@name, 'intercom-borderless-frame')]}
+2019-01-09 11:59:50,994  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:59:53,919  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //iframe[contains(@name, 'intercom-borderless-frame')]
+2019-01-09 11:59:55,354 ERROR [main] WebEventListener:64 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LOGESH', ip: '192.168.204.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: EventFiringWebDriver
+2019-01-09 11:59:55,354  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //span[text()='Cogmento']
+2019-01-09 11:59:55,387  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //span[text()='Cogmento']
+2019-01-09 11:59:57,295  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //*[@role='button']
+2019-01-09 11:59:57,329  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //*[@role='button']
+2019-01-09 11:59:57,329  INFO [main] WebEventListener:40 - Trying to click on: [[ChromeDriver: chrome on XP (8c13a2b4a88eab890b245c0c899a662b)] -> xpath: //*[@role='button']]
+2019-01-09 11:59:57,974  INFO [main] WebEventListener:44 - Clicked on: [[ChromeDriver: chrome on XP (8c13a2b4a88eab890b245c0c899a662b)] -> xpath: //*[@role='button']]
+2019-01-09 11:59:57,975  INFO [main] WebEventListener:73 - Trying to find Element By : By.name: username
+2019-01-09 11:59:58,013  INFO [main] WebEventListener:77 - Found Element By : By.name: username
+2019-01-09 11:59:58,999  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //*[@type='password']
+2019-01-09 11:59:59,029  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //*[@type='password']
+2019-01-09 11:59:59,183  INFO [main] WebEventListener:73 - Trying to find Element By : By.cssSelector: input[value='Login']
+2019-01-09 11:59:59,211  INFO [main] WebEventListener:77 - Found Element By : By.cssSelector: input[value='Login']
+2019-01-09 11:59:59,212  INFO [main] WebEventListener:40 - Trying to click on: [[ChromeDriver: chrome on XP (8c13a2b4a88eab890b245c0c899a662b)] -> css selector: input[value='Login']]
+2019-01-09 12:00:11,083  INFO [main] WebEventListener:44 - Clicked on: [[ChromeDriver: chrome on XP (8c13a2b4a88eab890b245c0c899a662b)] -> css selector: input[value='Login']]
+2019-01-09 12:00:11,309  INFO [main] TestReportListener:40 - on test start
+2019-01-09 12:00:11,325  INFO [main] WebEventListener:73 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2019-01-09 12:00:11,360  INFO [main] WebEventListener:77 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2019-01-09 12:00:11,360  INFO [main] WebEventListener:40 - Trying to click on: [[ChromeDriver: chrome on XP (8c13a2b4a88eab890b245c0c899a662b)] -> xpath: //a[contains(text(),'Contacts')]]
+2019-01-09 12:00:13,610  INFO [main] WebEventListener:44 - Clicked on: [[ChromeDriver: chrome on XP (8c13a2b4a88eab890b245c0c899a662b)] -> xpath: //a[contains(text(),'Contacts')]]
+2019-01-09 12:00:13,730  INFO [main] HomePageTest:50 - Contacts link clicked
+2019-01-09 12:00:13,731  INFO [main] TestReportListener:48 - on test success
+2019-01-09 12:00:20,868 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:20,884 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2019-01-09 12:00:20,884 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2019-01-09 12:00:20,884 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2019-01-09 12:00:21,972 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:21,973 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2019-01-09 12:00:21,973 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2019-01-09 12:00:21,974 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2019-01-09 12:00:21,978 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:21,979 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2019-01-09 12:00:21,980 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2019-01-09 12:00:21,981 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2019-01-09 12:00:22,043 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:22,044 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2019-01-09 12:00:22,045 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2019-01-09 12:00:22,046 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2019-01-09 12:00:22,065 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:22,067 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2019-01-09 12:00:22,068 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2019-01-09 12:00:22,068 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2019-01-09 12:00:22,179 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:22,180 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2019-01-09 12:00:22,181 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2019-01-09 12:00:22,182 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2019-01-09 12:00:22,247 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-01-09 12:00:22,252 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-01-09 12:00:22,256 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-01-09 12:00:22,275 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-01-09 12:00:22,277 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-01-09 12:00:22,279 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:22,280 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2019-01-09 12:00:22,281 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2019-01-09 12:00:22,282 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2019-01-09 12:00:22,292 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:22,294 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2019-01-09 12:00:22,294 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2019-01-09 12:00:22,295 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2019-01-09 12:00:22,322 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:22,323 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2019-01-09 12:00:22,324 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2019-01-09 12:00:22,325 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2019-01-09 12:00:22,333 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:22,335 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2019-01-09 12:00:22,337 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2019-01-09 12:00:22,337 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2019-01-09 12:00:22,352 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-01-09 12:00:22,353 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2019-01-09 12:00:22,354 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2019-01-09 12:00:22,355 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/logeshkavitha/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
